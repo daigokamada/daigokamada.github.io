@@ -1,5 +1,4 @@
-#Title test
-## Welcome to GitHub Pages
+## Data Science Portfolio and CV
 
 You can use the [editor on GitHub](https://github.com/daigokamada/daigokamada.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
