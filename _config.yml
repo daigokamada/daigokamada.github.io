@@ -1,3 +1,19 @@
-theme: jekyll-theme-cayman
-title: Data Science Portfolio
-description: Welcome! 
+name: "Daigo Kamada"
+output_dir: "."
+navbar:
+  title: Data Science Portfolio
+  description: Welcome! 
+  left:
+    - text: "Portfolio"
+      href: portfolio.html
+    - text: "CV"
+      href: cv.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/daigokamada/
+output:
+  html_document:
+    theme: jekyll-theme-cayman
+    css: 'styles.css'
