@@ -1,0 +1,57 @@
+---
+title: "Portfolio"
+output: 
+  html_document:
+    theme: darkly
+    highlight: default
+---
+
+###Using ggplot2
+<img src="images/n_corr_morales.png" style="width:25%; border:1px solid; margin-left: 20px" align="right">  
+
+The ggplot is a package with a simple but versatile language that allows you to display some beautiful graphics and statistical analyses that are easy to customize.
+
+<a href=ggplot.html class="btn btn-success">View Project</a>  
+  
+<br/>
+<br/>
+<br/>
+<br/>
+
+###Multivariate analyses
+<img src="images/elenapca.png" style="width:25%; border:1px solid; margin-left: 20px" align="right">  
+  
+Multivariate analyses are a great way to explore data but by no means is the only practical one. Each multivariate analysis has its nuance in how they "interpret" data and how they analyze it. It all depends on the question or objective and the nature of the dataset.  
+  
+<a href=multivariate.html class="btn btn-success">View Project</a>  
+  
+<br/>
+<br/>
+<br/>
+<br/>
+
+###Maps###
+<img src="images/cog_biomass.png" style="width:20%; border:1px solid; margin-left: 20px"
+align="right">  
+  
+Making maps in statistical analyse will enable to display results of sentiment analyses in a region, ecological surveys related to geographical features, and much more. I made several maps with bathymetry data, and fish catch data.  
+  
+<a href=maps.html class="btn btn-success">View Project</a>  
+  
+<br/>
+<br/>
+<br/>
+<br/>
+
+###Sentiment Analysis###
+<img src="images/wd.png" style="width:25%; border:1px solid; margin-left: 20px" 
+align="right">  
+  
+One thing I have endeavoured outside of my career in the Biological Sciences is Linguistics. I am fascinated how we humans relate to one another to the world arounds us and to each other (sociolinguistics) and how our use of language can influece our psyche (psycolinguistics). Following this yearning, I did a short sentiment analysis of a speech and a word map as well. 
+  
+<a href=sentiment.html class="btn btn-success">View Project</a>  
+
+<br/>
+<br/>
+<br/>
+<br/>

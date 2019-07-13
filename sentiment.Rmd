@@ -1,0 +1,27 @@
+---
+title: "Sentiment analysis"
+output: 
+  html_document:
+    theme: darkly
+    highlight: default
+---
+####Positive and negative words and sentences
+
+```{r slider, message=FALSE, echo=FALSE, fig.show="hold", fig.align='right'}
+library(svglite)
+library(lattice)
+library(ggplot2)
+library(rvest) 
+library(reshape2)
+library(dplyr)
+library(htmlwidgets)
+library(slickR)
+library(xml2)
+
+plotImg <- c("images/tm1_sentiment.png", "images/tm2_sentiment.png", "images/wd.png")
+slickR(obj = plotImg, slideId = 'ex1', height = 300, width='85%')
+```
+
+This is a new type of studies that I haven't had much experience on, but it is an area that fascinates me. Diverse subjects such as dialects, accents, multilingualism, second language acquisition, non-verbal communication, and sign language are riveting. 
+
+Above I have some examples of my first incursion of statistical analyses in this area: sentiment analyses of two speeches of Theresa May about Brexit. This particular analysis separates sentences in the text and analyzes the ositive and negative values of the sentence according to the words. There are different libraries of positive and negative values with also different ways of measuring them. The final figure is a word cloud of the used words in her second speech.

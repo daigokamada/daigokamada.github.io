@@ -1,0 +1,17 @@
+name: "Daigo Kamada"
+navbar:
+  title: "Daigo Kamada"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Portfolio"
+      href: portfolio.html
+    - text: "Curriculum Vitae"
+      href: cv.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:daigok@gmail.com
+    - icon: fa-github fa-lg
+      href: http://github.com/daigokamada
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/DaiKamada

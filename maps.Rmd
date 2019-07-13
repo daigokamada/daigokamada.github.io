@@ -1,0 +1,28 @@
+---
+title: "Maps"
+output: 
+  html_document:
+    theme: darkly
+    highlight: default
+---
+####Geospatial data analyses
+
+```{r slider, message=FALSE, echo=FALSE, fig.show="hold", fig.align='right'}
+library(svglite)
+library(lattice)
+library(ggplot2)
+library(rvest) 
+library(reshape2)
+library(dplyr)
+library(htmlwidgets)
+library(slickR)
+library(xml2)
+
+plotImg <- c("images/surveymap.png", "images/ellipse08.png", "images/cog_biomass.png", "images/catchposneg.png")
+slickR(obj = plotImg, slideId = 'ex1', height = 300, width='85%')
+```
+
+
+Some data can be presented be analyzed geospatially, finding patterns and answers that can follow or not geographical or political boundaries. 
+
+During my research I have tackled a few analyses of geospatial data that are displayed above: survey map of fisheries survey with NAFO divisions; home range analysis of fish cath data, center of gravity of fish catch data according to year; positive and negative catch data with countour splines indicating higher catch.  

@@ -1,0 +1,16 @@
+---
+title: "Data Science Portfolio"
+output: 
+  html_document:
+    theme: darkly
+    highlight: default
+---
+<img src="images/IMG_2923.jpg" style="width:25%; border:1px solid; margin-right: 20px" align="left">
+
+After some odd years of academic and professional career as a biologist, focused on feeding and aquatic ecology, I am transitioning to my true passion, Linguistics. Aside from teaching English, Spanish, Japanese and Portuguese as foreign languages, I love the aspects of language in our daily social interactions and ways of thinking. 
+
+My professional experience has shown that, either in Biology, Socio- or Psycholinguistics, data science is crucial to telling a story. It is like being a detective. Not only asking the right questions is crucial, following the right clues is equally paramount.  
+
+As an eager data scientist, my interest is using data as a tool to answer research questions and test hypotheses. I am an avid R enthusiast, but my interests and work had lead me to learn other languages such as C, HTML and CSS. Another language I would like to dive into is Python.
+
+I am highly motivated, independent, passionate, eager to collaborate in a team environment. Feel free to access my portfolio, curriculum and contact information on the links above.

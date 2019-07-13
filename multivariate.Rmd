@@ -1,0 +1,28 @@
+---
+title: "Multivariate Analyses"
+output: 
+  html_document:
+    theme: darkly
+    highlight: default
+---
+#### Exploring many variables at once
+
+```{r slider, message=FALSE, echo=FALSE}
+library(svglite)
+library(lattice)
+library(ggplot2)
+library(rvest) 
+library(reshape2)
+library(dplyr)
+library(htmlwidgets)
+library(slickR)
+library(xml2)
+
+plotImg <- c("images/elenapca.png", "images/reduced_lda.png", "images/judith_pca2.png", "images/NMDS.png")
+slickR(obj = plotImg, slideId = 'ex1', height = 300, width='85%')
+```
+
+
+Multivariate analyses are a great and powerful tool when having a huge dataset of variables recorded at the same time of an object or phenomenon. Multivariate analyses can determine patterns, highlight the difference among a priori groups, classify data in groups, and much more. However, each analysis has its nuances, the way they interpret data and analyze it. Thus, care must be taken when exercising multivariate (or any statistical) analysis. 
+
+Above are some examples of multivariate analyses I have performed in my collaborative research: Principal Component Analysis (PCA) of morphological bird data; Linear Discriminant Analysis (LDA) of the difference in bird species diversity between four grassland habitats; PCA of chemical data related to otolith microchemistry from different streams; Non-metric Multidimensional Dimensional Scaling (NMDS) of fish diet data with splines showing variation over a spatial gradient. 

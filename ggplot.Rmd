@@ -1,0 +1,29 @@
+---
+title: "ggplot2"
+output: 
+  html_document:
+    theme: darkly
+    highlight: default
+---
+####A versatile package for data science illustration
+
+```{r slider, message=FALSE, echo=FALSE, fig.show="hold", fig.align='right'}
+library(svglite)
+library(lattice)
+library(ggplot2)
+library(rvest) 
+library(reshape2)
+library(dplyr)
+library(htmlwidgets)
+library(slickR)
+library(xml2)
+
+plotImg <- c("images/n_corr_morales2.png", "images/capelinlarvae_all.png", "images/preytaxacapelin_cal_latitude_log.png", "images/DatosEE Violin.png")
+slickR(obj = plotImg, slideId = 'ex1', height = 300, width='85%')
+```
+
+For the longest time, I had used the R base cod to do my plots during my graduate research. Although very useful, the base code for plotting does not get any easier when trying to customize or make elaborate graphs. 
+
+When making the switch to ggplot2, I was amazed by how its syntax and semantics are straightforward. Any any modifications and complexities are added through layers to the aesthetic.
+
+Above are some examples of my work using ggplot2: a correlation plot of Bird species diversity among four grassland areas; a histogram of fish larvae lenght classes between three surveys; boxplot of fish gut content information for three main taxa across a latitudinal gradient; and a violin plot of temperature data between two sites. 
