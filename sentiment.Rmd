@@ -24,4 +24,7 @@ slickR(obj = plotImg, slideId = 'ex1', height = 300, width='85%')
 
 This is a new type of studies that I haven't had much experience on, but it is an area that fascinates me. Diverse subjects such as dialects, accents, multilingualism, second language acquisition, non-verbal communication, and sign language are riveting. 
 
-Above I have some examples of my first incursion of statistical analyses in this area: sentiment analyses of two speeches of Theresa May about Brexit. This particular analysis separates sentences in the text and analyzes the ositive and negative values of the sentence according to the words. There are different libraries of positive and negative values with also different ways of measuring them. The final figure is a word cloud of the used words in her second speech.
+Above I have some examples of my first incursion of statistical analyses in this area: sentiment analyses of two speeches of Theresa May about Brexit. This particular analysis separates sentences in the text and analyzes the positive (yellow bars) and negative (grey bars) values of the sentence according to the nature behind the words. 
+There are different libraries of positive and negative values with also different ways of measuring them. 
+
+The final figure is a word cloud of the used words in her second speech. The higher the frequency of use of each word, the bigger the word is inside the word cloud. 

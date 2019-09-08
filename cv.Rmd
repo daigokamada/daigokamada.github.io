@@ -5,27 +5,89 @@ output:
     theme: darkly
     highlight: default
 ---
+## A brief summary {.tabset .tabset-fade}
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+### Technical Skills
 
-## R Markdown
+* __CRAN R Software__
+    + 'tidyverse' package for data wrangling (plyr, dplyt, tidyr)
+    + 'ade4', 'vegan', 'gclus' and other packages for multivariate analyses
+    + 'maps', 'ggmap', 'sp', 'maptools' and other packages used in spatial analyses
+    + 'lm4', 'multcomp', 'car', 'vcd' and other packages used in univariate analyses
+    + 'rvest' for web scraping
+    + 'tidytext', 'sentimentr', 'udpipe' and other packages used in text and sentiment analyses
+    + 'Rmarkdown' for creating .html, .pdf and .docx documents
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+</br>
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+* __VEX Robotics Software__
+    + 'VEXcode IQ Blocks' and 'RobotC Text' that use C language for programming robots in VEX Robotics competitions
 
-```{r cars}
-summary(cars)
-```
+</br>
 
-## Including Plots
+* __Document Processors__
+    + Advanced use of MS Office (Word, Excel, PowerPoint) and Open Office suites
+    
+### Current Courses & Projects
 
-You can also embed plots, for example:
+* __Courses__
+    + Machine Learning with R - Udemy Online Course
+    + Neural Networking with Python - Udemy Online Course
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+</br>
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+* __Projects
+    + Extracting data from websites in English and Spanish to increase text and sentiment analysis skills using 'sentimentr' and 'udpipe' packages (CRAN R)
+    + Analysis of biological data of bird species diversity survey from four grassland farming areas in Paraguay
+
+### Work History
+
+* __Data Scientist Freelancer__; _03/2018 – present_; Asuncion, Paraguay
+    + Assisted in scientific research on Bird diversity from four communities and analyzed the results.
+    + Aided in the analysis and interpretation of data from biological experiments done by high school students.
+    + Taught high school students the foundations of statistical analysis for studies on dengue-fever carrier mosquito breeding.
+
+</br>
+
+* __Teacher__; _07/2019 – present_; Colegio del Sol, Asuncion, Paraguay
+    + Developing the subjects of Science and Technology for middle school
+    + Instructing the foundations of physics through practical projects
+    + Teaching basic computer programming through R and C language
+
+</br>
+
+* __Teacher__; _10/2017 – 07/2019_;Pan-American International School, Asuncion, Paraguay
+    + Taught STEM through the VEX Robotics program to students from 4th to 12th grade.
+    + Coached and managed several Robotics competition teams in friendly matches and in the national final competition
+    + Lead and coached one team at the World VEX Robotics Competition held on the US in 2018
+    + Trained students in computer programming through C language
+
+</br>
+
+* __Graduate Student__; _09/2013 – 09/2017_; Memorial University of Newfoundland, St. John's, NL, Canada
+    + Collected, studied, and interpreted large datasets;conducted reports; performed accurate, successful data management as a PhD student (_before quitting_).
+    + Participated in monthly meetings with supervisors, and provided information on the progress.
+    + Presented results in several conferences and meetings with government officials and stakeholders.
+    + Conducted several 1-month plankton and fish offshore surveys in the North Atlantic Ocean
+
+###Education
+
+* __MSc. Biology__; _09/2010 – 10/2012_; University of Manitoba, Winnipeg, Canada
+    + Field research on zooplankton community of Lake Winnipeg in eutrophication conditions
+    + Analyzing field and historical data through multivariate analysis and generlized linear models
+    + Presenting results of research at stakeholders meetings
+
+<br/>
+
+* __Environmental Chemistry__; _07/2006 – 06/2007_; University of Hiroshima, Higashi Hiroshima, Japan
+    + Research internship at an environmental chemistry laboratory
+    + Performed air pollution experiments involving endocrine disruptors in air
+    + Presented results of work at a final laboratory presentation
+
+<br/>
+
+* __Biology__; _02/2001 – 12/2004_; Universidad Nacional de Asunción, San Lorenzo, Paraguay
+    + Study on general foundations of biology, ecology, molecular biology, botany, zoology and other subdisciplines
+    + Field and laboratory work in the fields of ecology, zoology, botany and molecular biology.
+
+</div>
