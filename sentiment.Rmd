@@ -1,11 +1,11 @@
 ---
-title: "Sentiment analysis"
+title: "Text Mining, Sentiment, and Survey Analysis"
 output: 
   html_document:
     theme: darkly
     highlight: default
 ---
-####Positive and negative words and sentences
+####Text from  Newspapers, Sentence Sentiments and Surveys
 
 ```{r slider, message=FALSE, echo=FALSE, fig.show="hold", fig.align='right'}
 library(svglite)
@@ -18,13 +18,14 @@ library(htmlwidgets)
 library(slickR)
 library(xml2)
 
-plotImg <- c("images/tm1_sentiment.png", "images/tm2_sentiment.png", "images/wd.png")
+plotImg <- c( "images/tm2_sentiment.png", "images/wd.png", "images/secciones_años_uh_eng.png", "images/emociones_utilizadas_abctotal.png", "images/variablecorrplot.png", "images/activevar_contrib_axes_plot.png")
 slickR(obj = plotImg, slideId = 'ex1', height = 300, width='85%')
 ```
 
-This is a new type of studies that I haven't had much experience on, but it is an area that fascinates me. Diverse subjects such as dialects, accents, multilingualism, second language acquisition, non-verbal communication, and sign language are riveting. 
+This is a new type of studies that I haven't had much experience on, but it is an area that fascinates me. Diverse subjects such as science communication among the scientific community, science communication to the public, multilingualism, second language acquisition, non-verbal communication, and sign language are riveting. 
 
-Above I have some examples of my first incursion of statistical analyses in this area: sentiment analyses of two speeches of Theresa May about Brexit. This particular analysis separates sentences in the text and analyzes the positive (yellow bars) and negative (grey bars) values of the sentence according to the nature behind the words. 
-There are different libraries of positive and negative values with also different ways of measuring them. 
+My first example is the sentence sentiment analysis of a public speech from Theresa May about Brexit. This particular analysis separates sentences in the text and analyzes the positive (yellow bars) and negative (grey bars) values of the sentence according to the nature behind the words. There are different libraries of positive and negative values with also different ways of measuring them. This is followed by a word cloud of the words used in her speech. The higher the frequency of use of each word, the bigger the word is inside the word cloud. 
 
-The final figure is a word cloud of the used words in her second speech. The higher the frequency of use of each word, the bigger the word is inside the word cloud. 
+Text Mining is useful when trying to retrieve text from the internet and other digital sources. The first figure shows the amount of newspaper articles that mention Genetically Modified Organisms (GMOs) in different sections. This is followed by Word Sentiment Analysis graph from an specific newspaper on the subject of GMOs organized in 10 emotions with word counts. inside each category. These were initial findings on a research. 
+
+There are some of the results of another research on public perception about GMOs. In this case the data collected from a survey was analyzed through Multiple Factor Analysis (MFA). Although by no means the only way to analyze survey data, MFA has the advantage to analyse the results multivariately. The first graph shows the correlation between the levels of the questions of the survey and the explained variance of the data gathered in the axes of the MFA. The second graph shows the MFA ordination plot with the levels of questions colored by their contribution to explain the variance observed. 
