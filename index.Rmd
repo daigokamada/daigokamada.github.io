@@ -2,7 +2,7 @@
 title: "Data Science Portfolio"
 output: 
   html_document:
-    theme: darkly
+    theme: materia
     highlight: default
 ---
 <img src="images/IMG_2923.jpg" style="width:25%; border:1px solid; margin-right: 20px" align="left">
